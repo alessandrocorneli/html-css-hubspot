@@ -8,6 +8,10 @@ header{
   height: 700px;
 }
 
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .header-top{
   height: 100px;
 }
@@ -18,6 +22,7 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .nav1{
   background-color: #deeaee;
   height: 50px;
@@ -34,15 +39,16 @@ header{
   color: grey;
 }
 
-.menu #li2{
-  padding-left: 5px;
-  border-left: 1px solid black;
+#li2 {
+  padding-left: 6px;
+  border-left: 2px solid grey;
 }
 
 .header-top li{
   display: inline;
   margin-left: 5px;
 }
+
 .header-top::after{
   content: "";
   display: table;
@@ -67,13 +73,20 @@ header{
   float: right;
   width: 30%;
   height: 100%;
-  margin-right: 10%;
 }
 
 a.button {
   display: inline-block;
-  background-color: blue;
+  background-color: #ff9a00;
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
   padding: 5px;
+}
+
+.button#log{
+  background-color: #fff;
+  padding: 3px;
+  border: 2px solid orange;
+  color: orange;
+}
