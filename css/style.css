@@ -15,7 +15,7 @@ header{
 }
 
 .nav1{
-  background-color: orange;
+  background-color: #deeaee;
   height: 50px;
 }
 
@@ -28,7 +28,44 @@ header{
   text-decoration: none;
 }
 
+.menu #li2{
+  padding-left: 5px;
+  border-left: 1px solid black;
+}
+
 .header-top li{
   display: inline;
   margin-left: 5px;
 }
+.header-top::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav1-left{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.menu1{
+  margin-top: 15px;
+}
+
+.menu2{
+  margin-top: 10px;
+}
+.nav1-right{
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+
+a.button {
+  display: inline-block;
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
