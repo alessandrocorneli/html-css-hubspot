@@ -5,5 +5,21 @@
 }
 
 header{
+  background-color: red;
+  height: 500px;
+}
 
+.header-top{
+  background-color: green;
+  height: 100px;
+}
+
+.nav1{
+  background-color: blue;
+  height: 50px;
+}
+
+.nav2{
+  background-color: yellow;
+  height: 50px;
 }
