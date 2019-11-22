@@ -5,27 +5,33 @@
 }
 
 header{
-  background-color: red;
-  height: 500px;
+  height: 700px;
 }
 
 .header-top{
-  background-color: green;
   height: 100px;
 }
 
+.header-bottom{
+  height: 600px;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .nav1{
   background-color: #deeaee;
   height: 50px;
+  border-bottom: 2px solid lightgrey;
 }
 
 .nav2{
-  background-color: yellow;
+  background-color: #fff;
   height: 50px;
 }
 
 .header-top a{
   text-decoration: none;
+  color: grey;
 }
 
 .menu #li2{
@@ -47,6 +53,7 @@ header{
   float: left;
   width: 50%;
   height: 100%;
+  margin-left: 10%;
 }
 
 .menu1{
@@ -60,6 +67,7 @@ header{
   float: right;
   width: 30%;
   height: 100%;
+  margin-right: 10%;
 }
 
 a.button {
