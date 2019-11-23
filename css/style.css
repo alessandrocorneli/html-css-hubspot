@@ -40,13 +40,13 @@ body{
 }
 
 #li2 {
-  padding-left: 6px;
+  padding-left: 10px;
   border-left: 2px solid grey;
 }
 
 .header-top li{
   display: inline;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .header-top::after{
@@ -69,6 +69,7 @@ body{
 .menu2{
   margin-top: 10px;
 }
+
 .nav1-right{
   float: right;
   width: 30%;
@@ -77,16 +78,67 @@ body{
 
 a.button {
   display: inline-block;
-  background-color: #ff9a00;
+  background-color: #ffbb39;
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
   padding: 5px;
+  margin-right: 10px;
 }
 
 .button#log{
   background-color: #fff;
   padding: 3px;
-  border: 2px solid orange;
+  border: 2px solid #ffbb39;
   color: orange;
+}
+
+.nav2-left{
+  height: 30px;
+  width: 100px;
+  background-image: url("../img/hubspot-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-left: 15px;
+}
+
+.nav2-left{
+  float: left;
+  height: 100%;
+  margin-left: 10%;
+}
+
+.nav2-right{
+  float: right;
+  width: 43%;
+  height: 100%;
+  margin-top: 3px;
+}
+
+.titolo{
+  width: 500px;
+  /* background-color: red; */
+  margin-left: 10%;
+  padding-top: 5%;
+  color: #303860;
+}
+
+h1{
+  font-size: 65px;
+}
+
+p{
+  padding-top: 30px;
+}
+
+.bigbutton{
+  display: inline-block;
+  background-color: #ffbb39;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 30px 20px 30px;
+  margin-top: 40px;
+
 }
