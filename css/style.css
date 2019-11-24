@@ -140,5 +140,29 @@ p{
   text-decoration: none;
   padding: 20px 30px 20px 30px;
   margin-top: 40px;
+}
 
+.main-container{
+  height: 1000px;
+  background-color: #F4F9FD;
+}
+
+.cubo{
+  height: 220px;
+  width: 100%;
+  background-image: url("../img/cubo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cubo{
+  float: left;
+  width: 50%;
+  transform: translate(50%, 50%);
 }
