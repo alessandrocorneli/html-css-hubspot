@@ -155,9 +155,43 @@ p{
 
 .testo-cubo{
   transform: translate(-50%);
-  width: 1000px;
+  width: 900px;
   margin-left: 50%;
   text-align: center;
   font-size: 20px;
   color: #303860;
+}
+
+.CRM{
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px #dddddd;
+}
+
+.imgCRM{
+  height: 150px;
+  width: 150px;
+  background-image: url("../img/crm.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  transform: translate(50%,
+    30%);
+}
+
+.learn-button{
+  display: inline-block;
+  background-color: #ffbb39;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+}
+
+#learn1{
+  margin-left: 10%;
+  margin-top: 5%;
 }
